@@ -1,0 +1,114 @@
+.setting-box {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 50px auto;
+    width: 900px;
+  }
+  
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: lightpink;
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  select, input[type="range"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .container {
+    background-color: rgb(248, 252, 252);
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px black;
+    width: 400px;
+}
+
+body {
+    font-family: Times New Roman, serif;
+    background-color: #c180a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+	font-size: 16px;
+    padding: 8px;
+	margin-right: 118px ;
+    border: 1px solid;
+    width: calc(100% - 130px);
+    border-radius: 10px;
+}
+
+.add-button {
+    padding: 10px 20px;
+    background-color:rgb(189, 111, 157);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: rgb(68, 1, 60);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody {
+	list-style-type: square;
+}
+
+.action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-button {
+    background-color:rgb(108, 47, 64);
+    color: white;
+}
+
+.delete-button {
+    background-color: rgb(161, 0, 89);
+    color: white;
+}

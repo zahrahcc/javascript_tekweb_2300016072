@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Page Appearance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="setting-box">
+        <h1>Pengaturan Tampilan </h1>
+    <div class="controls">
+        <h2>Mengubah tampilan halaman</h2>
+
+        <!-- Change Background Color -->
+        <label for="bgColor">Background Color:</label>
+        <select id="bgColor">
+            <option value="lightpink">light pink</option>
+            <option value="red">red</option>
+            <option value="brown">brown</option>
+            <option value="lightgray">Light gray</option>
+            <option value="lightyellow">Light Yellow</option>
+        </select>
+        <br><br>
+
+        <!-- Change Font Size -->
+        <label for="fontSize">Font Size:</label>
+        <input type="range" id="fontSize" min="12" max="24" value="16">
+        <br><br>
+
+        <!-- Toggle Dark Mode -->
+        <button id="toggleDarkMode">Toggle Dark Mode</button>
+        <br><br>
+
+        <!-- Change Font Style -->
+        <label for="fontStyle">Font Style:</label>
+        <select id="fontStyle">
+            <option value="Arial, sans-serif">Sans-serif (Arial)</option>
+            <option value="Times New Roman, serif">Serif (Times New Roman)</option>
+            <option value="Brush Script MT">Brush Script MT</option>
+        </select>
+    </div>
+
+    <p>Kamu bisa untuk mengubah warna, ukuran font, serta font.</p>
+
+    <div class="container">
+        <h2>My To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Add a new task...">
+        <button id="addBtn" class="add-button">Add</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="taskList">
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
